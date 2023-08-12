@@ -6,14 +6,14 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      app: real-estate-for-all
+      app: test-profe-fredy
   template:
     metadata:
       labels:
-        app: real-estate-for-all
+        app: test-profe-fredy
     spec:
       containers:
-        - name: real-estate-for-all
+        - name: test-profe-fredy
           image: fredyball/testdevopsreact:10
           ports:
             - containerPort: 80
